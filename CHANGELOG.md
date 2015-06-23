@@ -1,20 +1,6 @@
 # Changelog
 
-All Notable changes to `ObjectArray` will be documented in this file
-
-## NEXT - YYYY-MM-DD
+## Version 0.9.0
 
 ### Added
-- Nothing
-
-### Deprecated
-- Nothing
-
-### Fixed
-- Nothing
-
-### Removed
-- Nothing
-
-### Security
-- Nothing
+- ObjectArray class

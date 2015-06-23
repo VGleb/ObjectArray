@@ -11,6 +11,13 @@ $ composer require VGleb/ObjectArray
 ## Usage
 
 ``` php
+$oa = new ObjectArray([
+    'foo' => 'bar',
+    'oa'  => new ObjectArray(['foo' => 'bar']),
+]);
+
+echo $oa->foo;
+echo $oa->oa->foo;
 
 ```
 
