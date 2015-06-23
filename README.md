@@ -5,7 +5,7 @@
 Via Composer
 
 ``` bash
-$ composer require VGleb/ObjectArray
+$ composer require vgleb/object-array
 ```
 
 ## Laravel 5 Implementation
