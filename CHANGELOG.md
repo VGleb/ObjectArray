@@ -1,6 +1,9 @@
 # Changelog
 
-## Version 0.9.0
+## 0.9.1 (2015-06-23)
 
-### Added
-- ObjectArray class
+- Laravel 5 adapter included
+
+## 0.9.0 (2015-06-22)
+
+- Version 0.9.0 of ObjectArray

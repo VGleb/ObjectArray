@@ -2,7 +2,7 @@
 
 ## Install
 
-Via Composer
+Install this package through Composer
 
 ``` bash
 $ composer require vgleb/object-array
