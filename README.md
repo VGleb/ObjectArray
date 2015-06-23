@@ -18,7 +18,7 @@ Add a reference to `LaravelObjectArrayServiceProvider` to the providers array in
 
 Then you can "make" (or inject) a `ObjectArray` instance anywhere in your app:
 
-    $cookie = \App::make('VGleb\ObjectArray\ObjectArray');
+    $oa = \App::make('VGleb\ObjectArray\ObjectArray');
 
 
 > **TIP:** Laravel's [IoC container](http://laravel.com/docs/5.0/container) will automatically provide the Laravel specific `ObjectArray` implementation. This will use Laravel's [`ObjectArray`](http://laravel.com/docs/5.0/requests) goodness behind the scenes!
