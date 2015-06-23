@@ -1,0 +1,43 @@
+{
+    "name": "VGleb/ObjectArray",
+    "description": "Object behavior for Array",
+    "keywords": [
+        "Array",
+        "ObjectArray"
+    ],
+    "homepage": "https://github.com/VGleb/ObjectArray",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Voronov Gleb",
+            "email": "i@h0n.ru",
+            "homepage": "http://h0n.ru/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "VGleb\\ObjectArray\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VGleb\\ObjectArray\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
