@@ -18,7 +18,7 @@ Add a reference to `LaravelObjectArrayServiceProvider` to the providers array in
 
 Then you can "make" (or inject) a `ObjectArray` instance anywhere in your app:
 
-    $oa = \App::make('VGleb\ObjectArray\ObjectArray');
+    $oa = \App::make('VGleb\ObjectArray\ObjectArray', [$array]);
 
 or
 
